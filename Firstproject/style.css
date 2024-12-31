@@ -1,0 +1,162 @@
+*{
+    padding:0 !important;
+    border:0 !important;
+    margin:0!important;
+    box-sizing: border-box !important;
+    font-family: 'Times New Roman', Times, serif !important;
+   }
+.container{
+    display:grid;
+     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    align-items:center;
+   row-gap: 25px;
+} 
+#a{
+   display:flex;
+    flex-direction:row;
+    gap:20px;
+    padding:20px;
+    border:20px solid grey
+}
+input[type="text"]{
+    width:200px;
+    height:30px;
+    padding:20px;
+}
+.support{
+    margin-top:10px;
+    width:120px;
+   
+}
+strong{
+    display:block;
+}
+.container1 {
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;  
+    height: 60px; 
+}
+
+
+
+.container2{
+    display:grid;
+    grid-template-columns:3fr 2fr ;
+    grid-template-rows: 1fr 1fr;
+    gap:20px;
+    padding:100px;
+    }
+
+/* .natural{
+    grid-column:1/2;
+    grid-row:1/3;
+    background-color:aqua;
+    padding:20px;
+    border-radius:15px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+} */
+.natural {
+    display: flex;
+    justify-content: space-between;  /* Pushes content to the left and right */
+    align-items: center;
+    background-color:aqua;  
+    grid-column:1/2;
+    grid-row:1/3;
+    padding:20px;
+    border-radius:15px;
+    /* Vertically centers the content */
+    /* Vertically centers the content */
+}
+
+.text-content {
+    max-width: 50%;  /* You can adjust the width as per your design */
+}
+
+.image-content {
+    max-width: 45%;  /* You can adjust the width as per your design */
+}
+
+.bottle {
+    width: 100%;  /* Ensure the image is responsive */
+    height: auto;
+}
+
+button{
+    padding:10px 20px;
+    font-size:16px;
+    border:2px solid #000;
+    border-radius:5px;
+    cursor:pointer;
+    background-color:transparent;
+}
+.fruits{
+    padding:10px 20px;
+    background-color:aquamarine;
+    grid-column:2/3;
+    grid-row:1/2;
+    border-radius:15px;
+}
+.baked{
+    padding:10px 20px;
+    background-color:blanchedalmond;
+    grid-column:2/3;
+    grid-row:2/3; 
+    border-radius: 15px;
+}
+p,h1,h2,h3,a{
+    padding:20px;
+    margin:10px 20px;   
+}
+h2{
+    color:goldenrod;
+}
+.bottle{
+    display:inline;
+}
+.container3{
+
+    display:flex;
+    flex-direction: row;
+    gap:25px;
+}
+
+
+.a:hover{
+    width:100px;
+    color:white;
+    background-color:black;
+}
+.b:hover{
+    width:100px;
+    color:white;
+    background-color:black;
+}
+.c:hover{
+    width:100px;
+    color:white;
+    background-color:black;
+}
+.d:hover{
+    width:100px;
+    color:white;
+    background-color:black;
+}
+.e:hover{
+    width:100px;
+    color:white;
+    background-color:black;
+}
+.f:hover{
+    width:100px;
+    color:white;
+    background-color:black;
+}
+.container4{
+    display:flex;
+    flex-direction: row;
+    gap:20px;
+
+}
